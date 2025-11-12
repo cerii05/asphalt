@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #071221;
+    color: #ffffff;
+}
+
+.navbar{
+    background-color: white;
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.logoNav{
+    width: 20px;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 40px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    /* color: #c71919; */
+    color: #c41818;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.navbar-bawah{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.navbar-bawah p{
+    text-align: center;
+    padding: 20px 0;
+    margin-left: 20px;
+    color:#071221;
+    font-size: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.logo-bwh{
+    text-align: center;
+    padding: 20px 0;
+    margin-right: 10px;
+    width: 20px;
+}
+
+.atas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 50px 50px;
+}
+
+.atas img{
+    width: 40%;
+    border: none;
+    border-radius: 100%;
+}
+
+.atas h2{
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.katalog{
+    display: flex;
+    flex-direction: column;
+    font-family: 'poppins';
+    font-weight: 400px;
+    text-transform: uppercase;
+}
+
+.kelas{
+    display: flex;
+    flex-direction: row;
+    margin: 5px 10px;
+    margin-left: 5%;
+}
+
+.car{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px 30px;
+}
+
+.car img{
+    width: 250px;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 30px;
+}
+
+.more{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    border-radius: 25px;
+    background: linear-gradient(45deg, #c41818, #8219de, #1532d3);
+}
+
+.more span{
+    margin-bottom: 5px;
+}
